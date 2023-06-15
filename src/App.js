@@ -21,8 +21,8 @@ function App() {
             element={<ProductCard category="Shoes" />} // Display shoes category products
           />
           <Route
-            path="/mobiles"
-            element={<ProductCard category="Mobiles" />} // Display mobiles category products
+            path="/backpacks"
+            element={<ProductCard category="Backpacks" />} // Display mobiles category products
           />
           <Route path="/cart" element={<CartPage />} />
           <Route path="/contact" element={<ContactPage />} />
